@@ -14,6 +14,4 @@ class UserService {
         userDao.insert(user);
         return userDao.findById(user.getId());
     }
-
-    private UserService() {}
 }
